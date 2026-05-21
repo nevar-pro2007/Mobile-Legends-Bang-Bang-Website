@@ -111,3 +111,14 @@ nav a hover{
 .card p {
     padding: 0 15px 20px;
 }
+
+/* Video */
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 80%;
+    border-radius: 10px;
+}
