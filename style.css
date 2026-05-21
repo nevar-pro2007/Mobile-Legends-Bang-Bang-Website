@@ -10,3 +10,31 @@ body {
     color: white;
     line-height: 1.6;
 }
+
+der {
+    background-color: #111827;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header h1{
+    color:#00bfff;
+    font-size: 32px;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a hover{
+    color: #00bfff;
+}
