@@ -122,3 +122,11 @@ video {
     width: 80%;
     border-radius: 10px;
 }
+
+/* Footer */
+footer {
+    background-color: #111827;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
