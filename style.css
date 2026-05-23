@@ -208,3 +208,24 @@ form button {
 form button:hover {
     background-color: #009acd;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 15px;
+    }
+    nav a {
+        display: inline-block;
+        margin: 10px;
+    }
+    hero h2 {
+        font-size: 18px;
+    }
+    video,
+    iframe {
+        width: 100%;
+    }
+}
