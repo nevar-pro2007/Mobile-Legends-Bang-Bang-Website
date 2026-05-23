@@ -165,3 +165,46 @@ footer {
     padding: 20px;
     margin-top: 50px;
 }
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #00bfff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-color: #009acd;
+}
